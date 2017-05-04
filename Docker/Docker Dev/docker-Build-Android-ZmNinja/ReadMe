@@ -1,0 +1,4 @@
+sudo docker run -v <your android sdk mount dir>:/android-sdk-linux -v <Your zmNinja mount dir>:/zmNinja -it zaraki673/test run.sh && sudo cp /<Your zmNinja mount dir>/platforms/android/build/outputs/apk/android-debug.apk /<your final out dir>/zmNinja.apk && sudo chmod 777 /<your final out dir>/zmNinja.apk
+
+
+[![Dply](https://dply.co/b.svg)](https://dply.co/b/fcXu8gxP)  
